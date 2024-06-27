@@ -1,0 +1,55 @@
+/*-----DESKTOP WIDTH STYLES-----*/
+@media(min-width: 1000px){
+    /*-----GLOBAL STYLES-----*/
+    body{
+        display: flex;
+    }
+    .get-in-touch{
+        display: flex;
+        opacity: 0.7;
+        font-size: 12px;
+    }
+    .profile{
+        display: flex;
+        border: none;
+    }
+
+    /*-----NAVIGATION STYLES-----*/
+    nav{
+        width: 25%;
+        position: fixed;
+        height:100vh;
+        justify-content: flex-start;
+    }
+    .flex-nav{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding-left: 4rem;
+    }
+    .hamburger{
+        display: none;
+    }
+    .social{
+        position:absolute;
+        bottom: 300px; 
+        margin-left: 3rem; 
+        gap: 1rem;     
+    }
+
+  
+    /*-----MULTIPLE CONTAINER STYLES-----*/
+     .offer-container, .portfolio-container, .hire-me-container, .hero{
+        width: 75%;
+        position: absolute;
+        right: 0px;
+        
+    }
+
+    /*-----PROJECT STYLES-----*/
+    .project-1{
+        display: flex;
+        flex-direction: row;
+        
+    }
+}
